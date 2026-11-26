@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AgentBid — advertisers compete for intent, not identity</title>
+<meta name="description" content="A privacy-native advertising marketplace where advertisers bid on a consented, minimal, expiring statement of intent, and the user's own agent decides what is shown." />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo" aria-hidden="true"></span>
+    <div>
+      <h1>AgentBid</h1>
+      <p>Advertisers compete for <em>intent</em>, not <em>identity</em>.</p>
+    </div>
+  </div>
+  <div class="top-meta">
+    <div class="chip" id="chip-session"><span class="k">session</span><span class="v">—</span></div>
+    <div class="chip" id="chip-ttl"><span class="k">expires in</span><span class="v">—</span></div>
+    <div class="chip" id="chip-backend"><span class="k">marketplace</span><span class="v">—</span></div>
+    <a class="chip link" href="https://github.com/kkikkiu85/agentbid" id="repo-link" target="_blank" rel="noopener">repo ↗</a>
+  </div>
+</header>
+
+<nav class="rail" aria-label="Pipeline">
+  <ol>
+    <li><b>1</b> Agent extracts intent</li>
+    <li><b>2</b> You grant disclosure</li>
+    <li><b>3</b> Advertisers bid, blind</li>
+    <li><b>4</b> Your agent decides</li>
+    <li><b>5</b> You choose</li>
+  </ol>
+</nav>
+
+<main class="grid">
+  <!-- 1 ------------------------------------------------------------------ -->
+  <section class="pane" id="pane-user">
+    <h2><span class="step">1</span> Consumer AI <small>on your device</small></h2>
+    <label class="lbl" for="prompt">What you say to your assistant</label>
+    <textarea id="prompt" rows="3" spellcheck="false"></textarea>
+    <div class="examples" id="examples"></div>
+    <button class="btn primary" id="btn-extract">Extract intent →</button>
+
+    <div class="sub">
+      <h3>Structured intent <span class="tag mint">stays local</span></h3>
+      <p class="hint" id="intent-source">—</p>
+      <dl class="kv" id="intent-kv"></dl>
+      <div class="private-box">
+        <h4>Private context the marketplace will never receive</h4>
+        <ul id="private-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 ------------------------------------------------------------------ -->
+  <section class="pane" id="pane-gate">
+    <h2><span class="step">2</span> Privacy Gateway <small>egress control</small></h2>
+
+    <div class="presets" id="presets"></div>
+
+    <table class="fields" id="fields-table">
+      <thead><tr><th>Disclose</th><th>Field</th><th class="num">bits</th></tr></thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="meter-wrap">
+      <div class="meter-head">
+        <span>Disclosure budget</span>
+        <strong id="bits-readout">0.00 / 33 bits</strong>
+      </div>
+      <div class="meter"><i id="bits-bar" style="width:0%"></i><span class="mark" title="33 bits ≈ unique on Earth"></span></div>
+      <div class="meter-foot">
+        <span>Anonymity-set estimate <b id="anon-readout">—</b></span>
+        <span class="hint">uniform-prior estimate, not a k-anonymity proof</span>
+      </div>
+    </div>
+
+    <h3>Exact bytes that leave this device</h3>
+    <pre class="code" id="egress-json">—</pre>
+    <p class="hint">Withheld on this request: <span id="withheld-summary">—</span></p>
+    <button class="btn primary" id="btn-open">Open ad session &amp; request offers →</button>
+  </section>
+
+  <!-- 3 ------------------------------------------------------------------ -->
+  <section class="pane" id="pane-market">
+    <h2><span class="step">3</span> Marketplace <small>blind to who you are</small></h2>
+    <p class="hint" id="market-status">Waiting for a consented intent.</p>
+
+    <h3>Sponsored-slot auction <span class="tag amber">generalised second price</span></h3>
+    <table class="auction" id="auction-table">
+      <thead><tr><th>Offer</th><th class="num">bid</th><th class="num">blind fit</th><th class="num">ad rank</th><th class="num">pays</th></tr></thead>
+      <tbody><tr class="empty"><td colspan="5">—</td></tr></tbody>
+    </table>
+
+    <h3>Advertiser portal <small>move a bid and watch what changes</small></h3>
+    <div id="bid-controls" class="bids"></div>
+    <p class="hint" id="eligibility-note">—</p>
+  </section>
+</main>
+
+<!-- 4 -------------------------------------------------------------------- -->
+<section class="pane wide" id="pane-result">
+  <h2><span class="step">4</span> What your agent shows you <small>ranked on private context, on your device</small></h2>
+  <div class="proof" id="proof">
+    <div><b>Organic ranking fingerprint</b><code id="organic-hash">—</code><span class="hint">changes only when your context changes</span></div>
+    <div><b>Sponsored slot fingerprint</b><code id="sponsored-hash">—</code><span class="hint">changes when advertisers bid</span></div>
+  </div>
+  <div class="offers" id="offers"></div>
+  <div class="dropped" id="dropped"></div>
+</section>
+
+<!-- 5 -------------------------------------------------------------------- -->
+<section class="pane wide" id="pane-audit">
+  <h2><span class="step">5</span> Audit <small>what left, what stayed, what it cost</small></h2>
+  <div class="audit-grid">
+    <div>
+      <h3>Egress log</h3>
+      <ol class="log" id="egress-log"><li class="hint">no request made yet</li></ol>
+      <button class="btn ghost" id="btn-new">Start an unrelated request (new session)</button>
+      <p class="hint">Two requests from the same person share no identifier, no cookie and no session. There is nothing to join them on — except the content itself, which is the honest limit of this design.</p>
+    </div>
+    <div>
+      <h3>Disclosure–relevance frontier <small>synthetic, 40 buyers × 64 offers</small></h3>
+      <div id="chart"></div>
+      <p class="hint" id="chart-note">—</p>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <p><b>Team AgentBid</b> · Nesa AI Hackathon · prototype. Synthetic advertisers and synthetic buyers; no real ad network, no billing, no live conversion data.</p>
+  <p class="hint">Honest limits: an ephemeral session is not anonymity (rare attribute combinations, network metadata and post-click navigation can still re-identify); the anonymity figure is an estimate under a uniform prior; advertiser-supplied offer data is untrusted input; nothing here controls tracking after you leave for a merchant site.</p>
+</footer>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>

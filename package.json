@@ -1,0 +1,14 @@
+{
+  "name": "agentbid",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "A privacy-native advertising marketplace: advertisers compete for intent, not identity.",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "data": "node experiments/generate.mjs",
+    "experiment": "node experiments/run.mjs",
+    "test": "node tools/selftest.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

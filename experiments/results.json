@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "generated": "2026-11-25T23:18:33.139Z",
+    "personas": 40,
+    "offers": 108,
+    "presentedSlots": 3,
+    "returnedToClient": 6,
+    "clientFitFloor": 0.45,
+    "disclaimer": "Synthetic data. Graded by an oracle utility function, not by observed human behaviour. Not a measurement of real CTR, CVR, CPA or incrementality."
+  },
+  "strategies": {
+    "A_general": {
+      "label": "A. General targeting",
+      "bitsDisclosed": 3.58,
+      "anonymitySet": 4166667,
+      "top1TrueFit": 0,
+      "meanTrueFit": 0,
+      "top1UsablePct": 0,
+      "fillRatePct": 100,
+      "irrelevantSharePct": 100,
+      "unusableSharePct": 100,
+      "eligibleCandidatesAvg": 108,
+      "paidSlotsDroppedPreClickAvg": 0
+    },
+    "B_keyword": {
+      "label": "B. Keyword / explicit",
+      "bitsDisclosed": 14.49,
+      "anonymitySet": 2170,
+      "top1TrueFit": 0.107,
+      "meanTrueFit": 0.252,
+      "top1UsablePct": 17.5,
+      "fillRatePct": 99.2,
+      "irrelevantSharePct": 70.6,
+      "unusableSharePct": 58,
+      "eligibleCandidatesAvg": 5.8,
+      "paidSlotsDroppedPreClickAvg": 0
+    },
+    "C_agentbid": {
+      "label": "C. AgentBid",
+      "bitsDisclosed": 19.4,
+      "anonymitySet": 72,
+      "top1TrueFit": 0.631,
+      "meanTrueFit": 0.59,
+      "top1UsablePct": 90,
+      "fillRatePct": 61.7,
+      "irrelevantSharePct": 9.5,
+      "unusableSharePct": 0,
+      "eligibleCandidatesAvg": 4.5,
+      "paidSlotsDroppedPreClickAvg": 0.88
+    }
+  },
+  "disclosureSweep": [
+    {
+      "level": "L0 category only",
+      "bits": 3.58,
+      "anonymitySet": 4166667,
+      "top1WithAgent": 0.035,
+      "top1ServerOnly": 0,
+      "filledSlotsPct": 1.7
+    },
+    {
+      "level": "L1 + destination",
+      "bits": 8.91,
+      "anonymitySet": 104167,
+      "top1WithAgent": 0.328,
+      "top1ServerOnly": 0.026,
+      "filledSlotsPct": 28.3,
+      "marginalFitPerBit_withAgent": 0.055,
+      "marginalFitPerBit_serverOnly": 0.0049
+    },
+    {
+      "level": "L2 + month, style",
+      "bits": 14.49,
+      "anonymitySet": 2170,
+      "top1WithAgent": 0.609,
+      "top1ServerOnly": 0.107,
+      "filledSlotsPct": 58.3,
+      "marginalFitPerBit_withAgent": 0.0504,
+      "marginalFitPerBit_serverOnly": 0.0145
+    },
+    {
+      "level": "L3 + party, budget band",
+      "bits": 19.4,
+      "anonymitySet": 72,
+      "top1WithAgent": 0.631,
+      "top1ServerOnly": 0.468,
+      "filledSlotsPct": 61.7,
+      "marginalFitPerBit_withAgent": 0.0045,
+      "marginalFitPerBit_serverOnly": 0.0735
+    },
+    {
+      "level": "L4 + hard requirements",
+      "bits": 21.3,
+      "anonymitySet": 22,
+      "top1WithAgent": 0.635,
+      "top1ServerOnly": 0.473,
+      "filledSlotsPct": 61.7,
+      "marginalFitPerBit_withAgent": 0.0021,
+      "marginalFitPerBit_serverOnly": 0.0026
+    },
+    {
+      "level": "L5 + exact budget",
+      "bits": 27.94,
+      "anonymitySet": 1,
+      "top1WithAgent": 0.635,
+      "top1ServerOnly": 0.546,
+      "filledSlotsPct": 62.5,
+      "marginalFitPerBit_withAgent": 0,
+      "marginalFitPerBit_serverOnly": 0.011
+    }
+  ],
+  "equivalence": {
+    "targetFit": 0.609,
+    "agentBits": 14.49,
+    "marketplaceBits": null,
+    "marketplaceBestFit": 0.546,
+    "marketplaceBestBits": 27.94,
+    "neverCatchesUp": true
+  }
+}

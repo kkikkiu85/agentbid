@@ -1,0 +1,1199 @@
+[
+  {
+    "id": "P01",
+    "destination": "JP",
+    "month": "2027-02",
+    "travelStyle": "package",
+    "partySize": 4,
+    "budgetKRW": 1420000,
+    "mustHave": [
+      "onsen",
+      "private_transfer"
+    ],
+    "niceToHave": [
+      "english_support",
+      "refundable",
+      "ski"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "vegetarian_option": 0.14,
+      "direct_flight": -0.05,
+      "private_transfer": 0.03
+    },
+    "raw": "2월에 일본 패키지로 가려고 해. 4명이고 예산은 142만원 정도야.",
+    "private": {
+      "historyTurns": 22,
+      "rejected": [
+        "JP Local Routes 6D",
+        "ES Slow Trip 4D"
+      ]
+    }
+  },
+  {
+    "id": "P02",
+    "destination": "ES",
+    "month": "2027-01",
+    "travelStyle": "package",
+    "partySize": 3,
+    "budgetKRW": 1660000,
+    "mustHave": [
+      "kid_friendly",
+      "late_checkout"
+    ],
+    "niceToHave": [
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "english_support": 0.14,
+      "private_transfer": 0.26,
+      "vegetarian_option": 0.05
+    },
+    "raw": "1월에 스페인 패키지로 가려고 해. 3명이고 예산은 166만원 정도야.",
+    "private": {
+      "historyTurns": 59,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P03",
+    "destination": "TW",
+    "month": "2026-12",
+    "travelStyle": "luxury",
+    "partySize": 1,
+    "budgetKRW": 2330000,
+    "mustHave": [
+      "english_support"
+    ],
+    "niceToHave": [
+      "vegetarian_option"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "refundable": 0.16,
+      "kid_friendly": 0.05,
+      "walkable_itinerary": 0.08
+    },
+    "raw": "12월에 대만 호캉스 위주로 가려고 해. 1명이고 예산은 233만원 정도야.",
+    "private": {
+      "historyTurns": 10,
+      "rejected": [
+        "JP Premier 3D"
+      ]
+    }
+  },
+  {
+    "id": "P04",
+    "destination": "US",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 4,
+    "budgetKRW": 1100000,
+    "mustHave": [
+      "direct_flight",
+      "private_transfer",
+      "ski"
+    ],
+    "niceToHave": [
+      "late_checkout"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "kid_friendly": 0.07,
+      "ski": 0.07,
+      "private_transfer": -0.05
+    },
+    "raw": "2월에 미국 자유여행으로 가려고 해. 4명이고 예산은 110만원 정도야.",
+    "private": {
+      "historyTurns": 20,
+      "rejected": [
+        "ES Premier 5D",
+        "TH Free & Easy 5D"
+      ]
+    }
+  },
+  {
+    "id": "P05",
+    "destination": "VN",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 2,
+    "budgetKRW": 1860000,
+    "mustHave": [
+      "kid_friendly",
+      "walkable_itinerary"
+    ],
+    "niceToHave": [
+      "onsen",
+      "private_transfer",
+      "refundable"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "vegetarian_option": 0.01,
+      "late_checkout": 0.08,
+      "refundable": -0.14
+    },
+    "raw": "12월에 베트남 자유여행으로 가려고 해. 2명이고 예산은 186만원 정도야.",
+    "private": {
+      "historyTurns": 31,
+      "rejected": [
+        "ES Smart Saver 3D",
+        "US Free & Easy 3D"
+      ]
+    }
+  },
+  {
+    "id": "P06",
+    "destination": "JP",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 2,
+    "budgetKRW": 990000,
+    "mustHave": [
+      "direct_flight",
+      "walkable_itinerary"
+    ],
+    "niceToHave": [
+      "kid_friendly",
+      "vegetarian_option"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "onsen": 0.24,
+      "direct_flight": 0.11,
+      "kid_friendly": -0.06
+    },
+    "raw": "12월에 일본 자유여행으로 가려고 해. 2명이고 예산은 99만원 정도야.",
+    "private": {
+      "historyTurns": 38,
+      "rejected": [
+        "JP Premier 6D"
+      ]
+    }
+  },
+  {
+    "id": "P07",
+    "destination": "TH",
+    "month": "2027-02",
+    "travelStyle": "backpacker",
+    "partySize": 4,
+    "budgetKRW": 830000,
+    "mustHave": [
+      "vegetarian_option"
+    ],
+    "niceToHave": [
+      "direct_flight"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "english_support": -0.1,
+      "walkable_itinerary": 0,
+      "refundable": 0.26
+    },
+    "raw": "2월에 태국 가성비로 가려고 해. 4명이고 예산은 83만원 정도야.",
+    "private": {
+      "historyTurns": 50,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P08",
+    "destination": "TW",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 1,
+    "budgetKRW": 1070000,
+    "mustHave": [
+      "english_support",
+      "kid_friendly"
+    ],
+    "niceToHave": [
+      "onsen",
+      "ski",
+      "vegetarian_option"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "kid_friendly": 0.09,
+      "walkable_itinerary": 0.24,
+      "onsen": 0.28
+    },
+    "raw": "2월에 대만 자유여행으로 가려고 해. 1명이고 예산은 107만원 정도야.",
+    "private": {
+      "historyTurns": 53,
+      "rejected": [
+        "JP Premier 5D"
+      ]
+    }
+  },
+  {
+    "id": "P09",
+    "destination": "IT",
+    "month": "2026-12",
+    "travelStyle": "backpacker",
+    "partySize": 2,
+    "budgetKRW": 830000,
+    "mustHave": [
+      "kid_friendly",
+      "onsen",
+      "vegetarian_option"
+    ],
+    "niceToHave": [
+      "late_checkout",
+      "private_transfer",
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "ski": 0.19,
+      "direct_flight": 0.15,
+      "vegetarian_option": 0.19
+    },
+    "raw": "12월에 이탈리아 가성비로 가려고 해. 2명이고 예산은 83만원 정도야.",
+    "private": {
+      "historyTurns": 49,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P10",
+    "destination": "VN",
+    "month": "2027-02",
+    "travelStyle": "backpacker",
+    "partySize": 1,
+    "budgetKRW": 600000,
+    "mustHave": [
+      "direct_flight",
+      "refundable"
+    ],
+    "niceToHave": [
+      "kid_friendly",
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "english_support": 0.15,
+      "kid_friendly": -0.03,
+      "walkable_itinerary": -0.06
+    },
+    "raw": "2월에 베트남 가성비로 가려고 해. 1명이고 예산은 60만원 정도야.",
+    "private": {
+      "historyTurns": 50,
+      "rejected": [
+        "JP Premier 5D",
+        "TW Essential 3D"
+      ]
+    }
+  },
+  {
+    "id": "P11",
+    "destination": "JP",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 3,
+    "budgetKRW": 1240000,
+    "mustHave": [
+      "onsen",
+      "ski",
+      "walkable_itinerary"
+    ],
+    "niceToHave": [
+      "direct_flight"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "onsen": 0.04,
+      "private_transfer": -0.14,
+      "kid_friendly": -0.02
+    },
+    "raw": "12월에 일본 자유여행으로 가려고 해. 3명이고 예산은 124만원 정도야.",
+    "private": {
+      "historyTurns": 19,
+      "rejected": [
+        "JP Winter Escape 4D",
+        "JP Deep Dive 5D"
+      ]
+    }
+  },
+  {
+    "id": "P12",
+    "destination": "TH",
+    "month": "2027-01",
+    "travelStyle": "backpacker",
+    "partySize": 4,
+    "budgetKRW": 1000000,
+    "mustHave": [
+      "ski"
+    ],
+    "niceToHave": [
+      "onsen",
+      "refundable",
+      "vegetarian_option"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "english_support": 0.01,
+      "walkable_itinerary": -0.14,
+      "private_transfer": -0.2
+    },
+    "raw": "1월에 태국 가성비로 가려고 해. 4명이고 예산은 100만원 정도야.",
+    "private": {
+      "historyTurns": 13,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P13",
+    "destination": "JP",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 3,
+    "budgetKRW": 1490000,
+    "mustHave": [
+      "english_support",
+      "private_transfer"
+    ],
+    "niceToHave": [
+      "late_checkout"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "direct_flight": 0.13,
+      "late_checkout": -0.05,
+      "walkable_itinerary": 0.22
+    },
+    "raw": "12월에 일본 자유여행으로 가려고 해. 3명이고 예산은 149만원 정도야.",
+    "private": {
+      "historyTurns": 53,
+      "rejected": [
+        "TW Smart Saver 6D"
+      ]
+    }
+  },
+  {
+    "id": "P14",
+    "destination": "ES",
+    "month": "2027-01",
+    "travelStyle": "package",
+    "partySize": 2,
+    "budgetKRW": 1090000,
+    "mustHave": [
+      "direct_flight",
+      "english_support",
+      "ski"
+    ],
+    "niceToHave": [
+      "vegetarian_option"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "vegetarian_option": 0.16,
+      "ski": 0.11,
+      "english_support": 0.19
+    },
+    "raw": "1월에 스페인 패키지로 가려고 해. 2명이고 예산은 109만원 정도야.",
+    "private": {
+      "historyTurns": 23,
+      "rejected": [
+        "TW Smart Saver 5D"
+      ]
+    }
+  },
+  {
+    "id": "P15",
+    "destination": "TW",
+    "month": "2027-01",
+    "travelStyle": "independent",
+    "partySize": 2,
+    "budgetKRW": 1910000,
+    "mustHave": [
+      "late_checkout",
+      "private_transfer"
+    ],
+    "niceToHave": [
+      "direct_flight",
+      "kid_friendly"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "english_support": -0.19,
+      "ski": 0.25,
+      "private_transfer": 0.16
+    },
+    "raw": "1월에 대만 자유여행으로 가려고 해. 2명이고 예산은 191만원 정도야.",
+    "private": {
+      "historyTurns": 9,
+      "rejected": [
+        "VN Deep Dive 5D",
+        "US Signature 4D"
+      ]
+    }
+  },
+  {
+    "id": "P16",
+    "destination": "US",
+    "month": "2027-01",
+    "travelStyle": "package",
+    "partySize": 3,
+    "budgetKRW": 1490000,
+    "mustHave": [
+      "onsen"
+    ],
+    "niceToHave": [
+      "kid_friendly",
+      "ski"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "refundable": 0.26,
+      "late_checkout": -0.09,
+      "onsen": -0.13
+    },
+    "raw": "1월에 미국 패키지로 가려고 해. 3명이고 예산은 149만원 정도야.",
+    "private": {
+      "historyTurns": 35,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P17",
+    "destination": "VN",
+    "month": "2027-01",
+    "travelStyle": "independent",
+    "partySize": 4,
+    "budgetKRW": 1020000,
+    "mustHave": [
+      "private_transfer",
+      "walkable_itinerary"
+    ],
+    "niceToHave": [
+      "refundable",
+      "ski"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "vegetarian_option": 0.24,
+      "kid_friendly": 0.21,
+      "walkable_itinerary": -0.09
+    },
+    "raw": "1월에 베트남 자유여행으로 가려고 해. 4명이고 예산은 102만원 정도야.",
+    "private": {
+      "historyTurns": 15,
+      "rejected": [
+        "JP Winter Escape 3D",
+        "IT Winter Escape 5D"
+      ]
+    }
+  },
+  {
+    "id": "P18",
+    "destination": "JP",
+    "month": "2026-12",
+    "travelStyle": "backpacker",
+    "partySize": 4,
+    "budgetKRW": 770000,
+    "mustHave": [
+      "direct_flight",
+      "kid_friendly"
+    ],
+    "niceToHave": [
+      "onsen",
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "english_support": 0.3,
+      "late_checkout": -0.15,
+      "vegetarian_option": -0.14
+    },
+    "raw": "12월에 일본 가성비로 가려고 해. 4명이고 예산은 77만원 정도야.",
+    "private": {
+      "historyTurns": 45,
+      "rejected": [
+        "VN Slow Trip 4D",
+        "ES Slow Trip 4D"
+      ]
+    }
+  },
+  {
+    "id": "P19",
+    "destination": "TH",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 2,
+    "budgetKRW": 1480000,
+    "mustHave": [
+      "english_support"
+    ],
+    "niceToHave": [
+      "private_transfer",
+      "vegetarian_option"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "vegetarian_option": 0.12,
+      "ski": -0.18,
+      "onsen": 0.14
+    },
+    "raw": "2월에 태국 자유여행으로 가려고 해. 2명이고 예산은 148만원 정도야.",
+    "private": {
+      "historyTurns": 58,
+      "rejected": [
+        "ES Slow Trip 5D",
+        "IT Essential 6D"
+      ]
+    }
+  },
+  {
+    "id": "P20",
+    "destination": "TW",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 1,
+    "budgetKRW": 1080000,
+    "mustHave": [
+      "vegetarian_option"
+    ],
+    "niceToHave": [
+      "direct_flight",
+      "onsen"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "vegetarian_option": 0.14,
+      "walkable_itinerary": -0.2,
+      "english_support": -0.04
+    },
+    "raw": "2월에 대만 자유여행으로 가려고 해. 1명이고 예산은 108만원 정도야.",
+    "private": {
+      "historyTurns": 29,
+      "rejected": [
+        "JP Local Routes 4D"
+      ]
+    }
+  },
+  {
+    "id": "P21",
+    "destination": "IT",
+    "month": "2027-02",
+    "travelStyle": "luxury",
+    "partySize": 3,
+    "budgetKRW": 2380000,
+    "mustHave": [
+      "late_checkout"
+    ],
+    "niceToHave": [
+      "onsen"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "english_support": 0.01,
+      "direct_flight": 0.16,
+      "late_checkout": -0.19
+    },
+    "raw": "2월에 이탈리아 호캉스 위주로 가려고 해. 3명이고 예산은 238만원 정도야.",
+    "private": {
+      "historyTurns": 16,
+      "rejected": [
+        "VN Local Routes 4D",
+        "TW Free & Easy 4D"
+      ]
+    }
+  },
+  {
+    "id": "P22",
+    "destination": "VN",
+    "month": "2026-12",
+    "travelStyle": "backpacker",
+    "partySize": 3,
+    "budgetKRW": 730000,
+    "mustHave": [
+      "late_checkout",
+      "private_transfer",
+      "walkable_itinerary"
+    ],
+    "niceToHave": [
+      "kid_friendly",
+      "onsen"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "onsen": 0.08,
+      "english_support": 0.29,
+      "refundable": 0.29
+    },
+    "raw": "12월에 베트남 가성비로 가려고 해. 3명이고 예산은 73만원 정도야.",
+    "private": {
+      "historyTurns": 25,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P23",
+    "destination": "JP",
+    "month": "2027-01",
+    "travelStyle": "luxury",
+    "partySize": 2,
+    "budgetKRW": 2640000,
+    "mustHave": [
+      "private_transfer",
+      "refundable",
+      "vegetarian_option"
+    ],
+    "niceToHave": [
+      "direct_flight",
+      "late_checkout",
+      "onsen"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "refundable": -0.17,
+      "direct_flight": 0.06,
+      "ski": -0.1
+    },
+    "raw": "1월에 일본 호캉스 위주로 가려고 해. 2명이고 예산은 264만원 정도야.",
+    "private": {
+      "historyTurns": 46,
+      "rejected": [
+        "US Premier 6D"
+      ]
+    }
+  },
+  {
+    "id": "P24",
+    "destination": "TH",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 2,
+    "budgetKRW": 900000,
+    "mustHave": [
+      "kid_friendly"
+    ],
+    "niceToHave": [
+      "english_support"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "direct_flight": 0.28,
+      "kid_friendly": -0.17,
+      "ski": -0.15
+    },
+    "raw": "12월에 태국 자유여행으로 가려고 해. 2명이고 예산은 90만원 정도야.",
+    "private": {
+      "historyTurns": 14,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P25",
+    "destination": "JP",
+    "month": "2027-02",
+    "travelStyle": "luxury",
+    "partySize": 2,
+    "budgetKRW": 2700000,
+    "mustHave": [
+      "refundable",
+      "vegetarian_option"
+    ],
+    "niceToHave": [
+      "kid_friendly",
+      "ski",
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "private_transfer": -0.12,
+      "ski": 0.23,
+      "english_support": -0.16
+    },
+    "raw": "2월에 일본 호캉스 위주로 가려고 해. 2명이고 예산은 270만원 정도야.",
+    "private": {
+      "historyTurns": 20,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P26",
+    "destination": "ES",
+    "month": "2027-01",
+    "travelStyle": "backpacker",
+    "partySize": 2,
+    "budgetKRW": 610000,
+    "mustHave": [
+      "kid_friendly"
+    ],
+    "niceToHave": [
+      "late_checkout",
+      "onsen",
+      "refundable"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "walkable_itinerary": 0.07,
+      "private_transfer": 0.17,
+      "late_checkout": 0.14
+    },
+    "raw": "1월에 스페인 가성비로 가려고 해. 2명이고 예산은 61만원 정도야.",
+    "private": {
+      "historyTurns": 21,
+      "rejected": [
+        "ES Premier 5D",
+        "ES Slow Trip 4D"
+      ]
+    }
+  },
+  {
+    "id": "P27",
+    "destination": "TW",
+    "month": "2027-02",
+    "travelStyle": "package",
+    "partySize": 1,
+    "budgetKRW": 1630000,
+    "mustHave": [
+      "late_checkout",
+      "walkable_itinerary"
+    ],
+    "niceToHave": [
+      "direct_flight",
+      "english_support"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "direct_flight": -0.15,
+      "onsen": -0.11,
+      "english_support": -0.17
+    },
+    "raw": "2월에 대만 패키지로 가려고 해. 1명이고 예산은 163만원 정도야.",
+    "private": {
+      "historyTurns": 32,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P28",
+    "destination": "US",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 1,
+    "budgetKRW": 1330000,
+    "mustHave": [
+      "kid_friendly"
+    ],
+    "niceToHave": [
+      "late_checkout",
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "vegetarian_option": 0.22,
+      "late_checkout": 0.04,
+      "kid_friendly": 0.07
+    },
+    "raw": "2월에 미국 자유여행으로 가려고 해. 1명이고 예산은 133만원 정도야.",
+    "private": {
+      "historyTurns": 19,
+      "rejected": [
+        "ES Smart Saver 3D"
+      ]
+    }
+  },
+  {
+    "id": "P29",
+    "destination": "VN",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 4,
+    "budgetKRW": 1980000,
+    "mustHave": [
+      "ski"
+    ],
+    "niceToHave": [
+      "private_transfer",
+      "vegetarian_option"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "vegetarian_option": -0.16,
+      "english_support": 0.04,
+      "direct_flight": 0.01
+    },
+    "raw": "12월에 베트남 자유여행으로 가려고 해. 4명이고 예산은 198만원 정도야.",
+    "private": {
+      "historyTurns": 14,
+      "rejected": [
+        "ES Smart Saver 3D",
+        "US City Break 5D"
+      ]
+    }
+  },
+  {
+    "id": "P30",
+    "destination": "JP",
+    "month": "2027-01",
+    "travelStyle": "backpacker",
+    "partySize": 4,
+    "budgetKRW": 850000,
+    "mustHave": [
+      "onsen",
+      "ski"
+    ],
+    "niceToHave": [
+      "private_transfer",
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "refundable": 0.06,
+      "walkable_itinerary": -0.15,
+      "english_support": 0.22
+    },
+    "raw": "1월에 일본 가성비로 가려고 해. 4명이고 예산은 85만원 정도야.",
+    "private": {
+      "historyTurns": 50,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P31",
+    "destination": "TH",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 1,
+    "budgetKRW": 1310000,
+    "mustHave": [
+      "ski"
+    ],
+    "niceToHave": [
+      "kid_friendly"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "refundable": -0.2,
+      "ski": -0.13,
+      "late_checkout": 0.3
+    },
+    "raw": "12월에 태국 자유여행으로 가려고 해. 1명이고 예산은 131만원 정도야.",
+    "private": {
+      "historyTurns": 58,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P32",
+    "destination": "TW",
+    "month": "2026-12",
+    "travelStyle": "backpacker",
+    "partySize": 3,
+    "budgetKRW": 970000,
+    "mustHave": [
+      "private_transfer"
+    ],
+    "niceToHave": [
+      "onsen",
+      "vegetarian_option"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "private_transfer": -0.11,
+      "onsen": 0.2,
+      "walkable_itinerary": -0.1
+    },
+    "raw": "12월에 대만 가성비로 가려고 해. 3명이고 예산은 97만원 정도야.",
+    "private": {
+      "historyTurns": 60,
+      "rejected": [
+        "TH Local Routes 4D"
+      ]
+    }
+  },
+  {
+    "id": "P33",
+    "destination": "IT",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 4,
+    "budgetKRW": 1760000,
+    "mustHave": [
+      "kid_friendly",
+      "onsen",
+      "ski"
+    ],
+    "niceToHave": [
+      "direct_flight",
+      "vegetarian_option",
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "direct_flight": -0.16,
+      "kid_friendly": 0.08,
+      "late_checkout": 0.06
+    },
+    "raw": "12월에 이탈리아 자유여행으로 가려고 해. 4명이고 예산은 176만원 정도야.",
+    "private": {
+      "historyTurns": 21,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P34",
+    "destination": "VN",
+    "month": "2026-12",
+    "travelStyle": "independent",
+    "partySize": 1,
+    "budgetKRW": 1750000,
+    "mustHave": [
+      "late_checkout",
+      "private_transfer"
+    ],
+    "niceToHave": [
+      "onsen"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "late_checkout": 0.14,
+      "kid_friendly": 0.28,
+      "vegetarian_option": 0.28
+    },
+    "raw": "12월에 베트남 자유여행으로 가려고 해. 1명이고 예산은 175만원 정도야.",
+    "private": {
+      "historyTurns": 45,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P35",
+    "destination": "JP",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 3,
+    "budgetKRW": 1940000,
+    "mustHave": [
+      "private_transfer",
+      "refundable",
+      "vegetarian_option"
+    ],
+    "niceToHave": [
+      "direct_flight",
+      "english_support",
+      "ski"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "late_checkout": -0.16,
+      "direct_flight": 0.07,
+      "vegetarian_option": -0.19
+    },
+    "raw": "2월에 일본 자유여행으로 가려고 해. 3명이고 예산은 194만원 정도야.",
+    "private": {
+      "historyTurns": 28,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P36",
+    "destination": "TH",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 4,
+    "budgetKRW": 1400000,
+    "mustHave": [
+      "direct_flight",
+      "kid_friendly",
+      "refundable"
+    ],
+    "niceToHave": [
+      "onsen",
+      "vegetarian_option",
+      "walkable_itinerary"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "late_checkout": -0.08,
+      "kid_friendly": -0.08,
+      "direct_flight": 0.21
+    },
+    "raw": "2월에 태국 자유여행으로 가려고 해. 4명이고 예산은 140만원 정도야.",
+    "private": {
+      "historyTurns": 14,
+      "rejected": [
+        "JP Free & Easy 5D",
+        "JP Local Routes 4D"
+      ]
+    }
+  },
+  {
+    "id": "P37",
+    "destination": "JP",
+    "month": "2027-01",
+    "travelStyle": "backpacker",
+    "partySize": 3,
+    "budgetKRW": 780000,
+    "mustHave": [
+      "walkable_itinerary"
+    ],
+    "niceToHave": [
+      "onsen"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "private_transfer": -0.12,
+      "refundable": 0.26,
+      "ski": 0.27
+    },
+    "raw": "1월에 일본 가성비로 가려고 해. 3명이고 예산은 78만원 정도야.",
+    "private": {
+      "historyTurns": 20,
+      "rejected": []
+    }
+  },
+  {
+    "id": "P38",
+    "destination": "ES",
+    "month": "2026-12",
+    "travelStyle": "luxury",
+    "partySize": 2,
+    "budgetKRW": 2500000,
+    "mustHave": [
+      "late_checkout",
+      "refundable",
+      "vegetarian_option"
+    ],
+    "niceToHave": [
+      "direct_flight",
+      "kid_friendly"
+    ],
+    "dealbreakers": [],
+    "latentTaste": {
+      "late_checkout": 0.29,
+      "onsen": 0.28,
+      "direct_flight": 0.13
+    },
+    "raw": "12월에 스페인 호캉스 위주로 가려고 해. 2명이고 예산은 250만원 정도야.",
+    "private": {
+      "historyTurns": 32,
+      "rejected": [
+        "TH Local Routes 4D",
+        "TW Slow Trip 4D"
+      ]
+    }
+  },
+  {
+    "id": "P39",
+    "destination": "TW",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 4,
+    "budgetKRW": 1270000,
+    "mustHave": [
+      "refundable"
+    ],
+    "niceToHave": [
+      "english_support",
+      "private_transfer",
+      "ski"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "late_checkout": 0.29,
+      "direct_flight": 0.14,
+      "onsen": -0.14
+    },
+    "raw": "2월에 대만 자유여행으로 가려고 해. 4명이고 예산은 127만원 정도야.",
+    "private": {
+      "historyTurns": 57,
+      "rejected": [
+        "ES Essential 6D",
+        "JP Deep Dive 3D"
+      ]
+    }
+  },
+  {
+    "id": "P40",
+    "destination": "US",
+    "month": "2027-02",
+    "travelStyle": "independent",
+    "partySize": 4,
+    "budgetKRW": 1100000,
+    "mustHave": [
+      "direct_flight",
+      "refundable",
+      "vegetarian_option"
+    ],
+    "niceToHave": [
+      "english_support",
+      "onsen",
+      "ski"
+    ],
+    "dealbreakers": [
+      "group_tour"
+    ],
+    "latentTaste": {
+      "late_checkout": -0.1,
+      "english_support": 0.25,
+      "direct_flight": 0.15
+    },
+    "raw": "2월에 미국 자유여행으로 가려고 해. 4명이고 예산은 110만원 정도야.",
+    "private": {
+      "historyTurns": 53,
+      "rejected": [
+        "JP Free & Easy 5D",
+        "IT Signature 4D"
+      ]
+    }
+  }
+]
